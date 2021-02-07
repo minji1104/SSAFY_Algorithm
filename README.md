@@ -49,5 +49,7 @@
  6. `git add .` 명령을 실행합니다.
  7. `git commit` 명령을 통해 해당 문제에 대한 커밋 메세지를 작성합니다. (상단의 커밋 메세지 규칙 참고)
  8. `git push origin 생성한 브런치 명` 명령으로 remote repository에 브런치를 push합니다.
- 9.  
- ![이미지1](https://user-images.githubusercontent.com/52505739/107138240-a8800c00-6956-11eb-9a18-48591e2a673c.png)
+ 
+ # pr 방법
+ ![pr_1](/static/pr_1.png)
+
