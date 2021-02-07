@@ -40,3 +40,14 @@
 # 알고리즘 학습 사이트
 이해에 도움이 되었거나 공유하고 싶은 자료 혹은 사이트 등 자유롭게 추가해주세요!
 
+# 스터디 참여 방법
+ 1. git bash 혹은 mac console 에서 `git clone https://github.com/SHINMH/SSAFY_Algorithm.git` 명령어 입력
+ 2. 명령어를 실행한 위치에 SSAFY_Algorithm 폴더 생성가 생성됩니다. 해당 폴더로 이동해줍니다.
+ 3. `git checkout -b 브런치 이름` 명령을 통해 원하는 이름으로 브런치를 생성합니다.
+ 4. 자신이 푼 문제에 해당하는 폴더로 이동하거나, 없으면 폴더를 생성합니다.
+ 5. 문제를 푼 파일(`SHINMH.java`)을 폴더에 넣습니다.
+ 6. `git add .` 명령을 실행합니다.
+ 7. `git commit` 명령을 통해 해당 문제에 대한 커밋 메세지를 작성합니다. (상단의 커밋 메세지 규칙 참고)
+ 8. `git push origin 생성한 브런치 명` 명령으로 remote repository에 브런치를 push합니다.
+ 9.  
+ ![이미지1](https://user-images.githubusercontent.com/52505739/107138240-a8800c00-6956-11eb-9a18-48591e2a673c.png)
