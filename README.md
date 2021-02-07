@@ -41,15 +41,31 @@
 이해에 도움이 되었거나 공유하고 싶은 자료 혹은 사이트 등 자유롭게 추가해주세요!
 
 # 스터디 참여 방법
- 1. git bash 혹은 mac console 에서 `git clone https://github.com/SHINMH/SSAFY_Algorithm.git` 명령어 입력
- 2. 명령어를 실행한 위치에 SSAFY_Algorithm 폴더 생성가 생성됩니다. 해당 폴더로 이동해줍니다.
- 3. `git checkout -b 브런치 이름` 명령을 통해 원하는 이름으로 브런치를 생성합니다.
- 4. 자신이 푼 문제에 해당하는 폴더로 이동하거나, 없으면 폴더를 생성합니다.
- 5. 문제를 푼 파일(`SHINMH.java`)을 폴더에 넣습니다.
- 6. `git add .` 명령을 실행합니다.
- 7. `git commit` 명령을 통해 해당 문제에 대한 커밋 메세지를 작성합니다. (상단의 커밋 메세지 규칙 참고)
- 8. `git push origin 생성한 브런치 명` 명령으로 remote repository에 브런치를 push합니다.
+1. git bash 혹은 mac console 에서 `git clone https://github.com/SHINMH/SSAFY_Algorithm.git` 명령어 입력
+2. 명령어를 실행한 위치에 SSAFY_Algorithm 폴더 생성가 생성됩니다. 해당 폴더로 이동해줍니다.
+3. `git checkout -b 브런치 이름` 명령을 통해 원하는 이름으로 브런치를 생성합니다.
+4. 자신이 푼 문제에 해당하는 폴더로 이동하거나, 없으면 폴더를 생성합니다.
+5. 문제를 푼 파일(`SHINMH.java`)을 폴더에 넣습니다.
+6. `git add .` 명령을 실행합니다.
+7. `git commit` 명령을 통해 해당 문제에 대한 커밋 메세지를 작성합니다. (상단의 커밋 메세지 규칙 참고)
+8. `git push origin 생성한 브런치 명` 명령으로 remote repository에 브런치를 push합니다.
  
- # pr 방법
- ![pr_1](/static/pr_1.png)
+# pr 방법
+1. Pull requests 탭으로 이동 후 New pull request 클릭!
+![pr_1](/static/pr_1.png)
 
+2. 자신이 push한 branch 선택
+![pr_2](/static/pr_2.png)
+
+3. Pull request 내용 입력
+    ![pr_3](/static/pr_3.png)
+    제목 : `[문제푼 사이트_문제번호] 문제 이름`
+
+    본문
+     * 문제 해결을 위한 아이디어
+    
+    label
+     * Assignees : 자신 선택
+     * Reviewer : 자신의 팀원 혹은 문제를 해결한 사람
+     * Label : 문제 출처, 문제의 난이도 등 선택
+    
