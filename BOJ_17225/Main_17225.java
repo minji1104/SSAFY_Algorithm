@@ -37,8 +37,8 @@ public class Main_17225 {
 			}
 		});
 		
-		int a_time = 0;
-		int b_time = 0;
+		int a_time = 1;
+		int b_time = 1;
 		int start, count;
 		char color;
 		for(int k = 0; k < N; k++) {
@@ -48,19 +48,19 @@ public class Main_17225 {
 			count = Integer.parseInt(str[2]);
 			
 			if(color == 'B') {
-				start = Math.max(start, a_time);
+				a_time = Math.max(start, a_time);
 				for(int i = 0; i < count; i++) {
-					pq.add(new Present(start + A * i, color));
+					pq.add(new Present(a_time, color));
 					a_time += A;
 				}
 			}
 			else {
-				start = Math.max(start, b_time);
+				b_time = Math.max(start, b_time);
 				for(int i = 0; i < count; i++) {
-					pq.add(new Present(start + B * i, color));
+					pq.add(new Present(b_time, color));
 					b_time += B;
 				}
-			}
+			} 
 		}
 		
 		Queue<Integer> aQueue = new LinkedList<Integer>();
